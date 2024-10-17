@@ -1,16 +1,16 @@
 # Proyecto: Parser Descendente Recursivo (drLL) en C
 
-## Descripción
+## 1. Descripción
 Este proyecto implementa un parser descendente recursivo (drLL) en el lenguaje C, diseñado para procesar una gramática que representa operaciones matemáticas y el almacenamiento de variables en notación prefija.
 
-### Estructura de Archivos
+### 1.1 Estructura de Archivos
 - drLL.c: Código fuente que contiene la implementación del parser. El parser sigue un enfoque descenso-recursivo para procesar expresiones en notación prefija y realizar cálculos, además de almacenar valores en variables.
   
 - drLL.pdf: Documento con la documentación detallada del proyecto. Incluye una explicación técnica sobre el funcionamiento del parser, la gramática utilizada y diagramas que ilustran el proceso de análisis sintáctico.
   
 - drLL.txt: Archivo de texto con sentencias de prueba para testear el parser.
   
-### Gramática
+### 1.2 Gramática
 La gramática utilizada en el parser incluye las siguientes operaciones y reglas:
 
 Operaciones aritméticas básicas: suma, resta, multiplicación, y división.
@@ -28,7 +28,7 @@ Por ejemplo:
 
 C -> Resultado: 2
 
-### Instrucciones de Uso
+## 2. Instrucciones de Uso
 Compilación del Código: Para compilar el archivo drLL.c, puedes utilizar un compilador de C como gcc:
 
   ```bash
@@ -41,6 +41,6 @@ Ejecución: Después de compilar el programa, puedes ejecutarlo para analizar ex
   ```
 Introduce las expresiones en notación prefija, y el parser evaluará las operaciones o almacenará variables según sea necesario.
 
-### Contribuciones
+## 3. Contribuciones
 Las contribuciones para mejorar el parser o agregar nuevas funcionalidades son bienvenidas. Si deseas participar, abre un issue o envía un pull request con tus mejoras.
 
